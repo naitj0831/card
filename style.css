@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+  /* where i set the background color */
+    background-color: #be996b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* the main container */
+
+.front-side,
+.back-side {
+  width: 390px;
+  height: 220px;
+  /* display: grid; */
+  /* each student will customize based on their grid */
+  /* grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%; */
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:#050505;
+}
+
+.front-side{
+  background-image: url('Logo_1.svg');
+  position: fi;
+  
+  /* align-items: center; */
+    background-repeat: no-repeat;
+     position: auto; 
+  background-color: #ffffff;
+}
+
+.name{
+  display: grid;
+  position: relative;
+  margin-left:20px;
+  /* max-resolution: left 55px; */
+  margin-top: 20px;
+  padding: 10px
+
+}
+
+.secondary{
+  display: grid;
+  position: relative;
+  padding-left: 20px;
+  /* max-resolution: left 55px; */
+  margin-top: 20px;
+}
+
+
+
+h3{
+  color: #9f3523
+}
+
+h5{
+  color: #fca919
+}
