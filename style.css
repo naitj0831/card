@@ -7,7 +7,7 @@
 
 body {
   /* where i set the background color */
-    background-color: #be996b;
+    background-color: antiquewhite;
     font-family: 'Source Sans Pro', sans-serif;
 }
 /* the main container */
@@ -25,25 +25,27 @@ body {
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:#050505;
+  background-color:gray;
 }
 
 .front-side{
-  background-image: url('Logo_1.svg');
-  position: fi;
+  /* background-image: url('Nait_logo.svg'); */
+  /* position: fixed; */
   
-  /* align-items: center; */
+  
+  align-items: center;
     background-repeat: no-repeat;
+     
      position: auto; 
-  background-color: #ffffff;
+  background-color: rgb(141, 12, 12);
 }
 
 .name{
   display: grid;
   position: relative;
-  margin-left:20px;
+  margin-left:10px;
   /* max-resolution: left 55px; */
-  margin-top: 20px;
+  margin-top: 45px;
   padding: 10px
 
 }
@@ -58,10 +60,14 @@ body {
 
 
 
-h3{
-  color: #9f3523
+h1{
+  color: rgb(141, 12, 12)
+}
+
+h4{
+  color: rgb(141, 12, 12)
 }
 
 h5{
-  color: #fca919
+  color: black
 }
